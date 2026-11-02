@@ -360,7 +360,6 @@ const renderItemDescription = (item: IInvoiceItem, invoiceTitle?: string | null)
 export const InvoiceDocument = ({ 
   invoice, 
   signatureUrl, 
-  payments = [],
   bankAccount = null,
 }: { 
   invoice: IInvoice; 

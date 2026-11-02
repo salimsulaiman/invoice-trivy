@@ -1,4 +1,4 @@
-import { Document, Page, Text, View, StyleSheet, Image, Svg, Path } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
 import { format } from 'date-fns';
 import type { IPayment } from '../types/payment';
 

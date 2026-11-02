@@ -95,7 +95,6 @@ export function CustomerTable() {
               </PopoverTrigger>
               <PopoverContent className="w-auto p-0" align="end">
                 <Calendar
-                  initialFocus
                   mode="range"
                   defaultMonth={date?.from}
                   selected={date}

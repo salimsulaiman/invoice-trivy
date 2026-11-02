@@ -139,7 +139,6 @@ export function EditProjectDialog({ project, open, onOpenChange }: EditProjectDi
                         }
                     }}
                     disabled={(date) => date < new Date("1900-01-01")}
-                    initialFocus
                     />
                     </PopoverContent>
                 </Popover>
